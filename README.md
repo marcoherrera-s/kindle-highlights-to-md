@@ -22,7 +22,7 @@ This script has multiple modifications, the most relevant ones are listed below:
 5. **Ordering of Clippings** (General Advice):
    - Suggested adding ordering logic based on available metadata (like position or timestamp) before exporting the clippings to maintain the correct order in the output files.
 
-## Features
+## Features (Below the text from original repository)
 
 Clippings are stored in a Python dictionary with this structure:
 
