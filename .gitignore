@@ -1,5 +1,4 @@
 *.pyc
 *.txt
-*.md
 clips.json
 .DS_Store
