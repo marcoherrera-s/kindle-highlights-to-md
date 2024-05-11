@@ -1,12 +1,12 @@
 Kindle Clippings to Markdown
-================
+-----
 
 This is a modification of `lxyu's code <https://github.com/lxyu/kindle-clippings?tab=readme-ov-file#kindle-clippings>`_.
 
 This script has multiple modifications, the most relevant ones are listed below:
 
 Modifications
---------
+-----
 
 1. **File Opening Mode Correction in `save_clips` Function**:
    - Changed the file opening mode from binary write (`'wb'`) to write (`'w'`) to ensure compatibility with the `json.dump()` function, which expects to write strings, not bytes.
@@ -26,7 +26,7 @@ Modifications
 
 
 Features (Same information as preceding repository )
---------
+-----
 
 Clippings are stored in a python dict with this structure
 
